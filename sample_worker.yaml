@@ -1,0 +1,9 @@
+decoder:
+  model: /home/lamnguyen/git/kaldi/egs/voxforge/s5/exp/mono/final.mdl
+  fst: /home/lamnguyen/git/kaldi/egs/voxforge/s5/exp/mono/graph/HCLG.fst
+  word-syms: /home/lamnguyen/git/kaldi/egs/voxforge/s5/exp/mono/graph/words.txt
+  silence-phones: "1:2:3:4:5"
+
+out-dir: tmp
+use-vad: False
+silence-timeout: 60
